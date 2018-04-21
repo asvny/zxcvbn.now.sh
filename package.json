@@ -1,0 +1,29 @@
+{
+  "name": "zxcvbn.now.sh",
+  "version": "1.0.0",
+  "description": "zxcvbn (by Dropbox) -  password strength estimator as a service",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asvny/zxcvbn.now.sh.git"
+  },
+  "keywords": [
+    "zxcvbn",
+    "password-strength",
+    "microservice"
+  ],
+  "author": "Annamalai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asvny/zxcvbn.now.sh/issues"
+  },
+  "homepage": "https://github.com/asvny/zxcvbn.now.sh#readme",
+  "dependencies": {
+    "micro": "^9.1.4",
+    "micro-cors": "^0.1.0",
+    "zxcvbn": "^4.4.2"
+  }
+}
